@@ -20,8 +20,22 @@ cargo install --path crates/ils
 
 ## Usage
 
+Reads root directory entries either from a block device:
+
 ```bash
-ils [OPTIONS] <DIRECTORY>
+ils -f /dev/sda1
+```
+
+Or from an image file:
+
+```bash
+ils -f ext4.img
+```
+
+Reads a subpath, e.g. `/home/user`:
+
+```bash
+ils -f /dev/sda1 --subpath /home/user
 ```
 
 ## Development
