@@ -39,7 +39,7 @@ ils -f ext4.img
 Reads a subpath, e.g. `/home/user`:
 
 ```bash
-ils -f /dev/sda1 --subpath /home/user
+ils -f /dev/sda1 /home/user
 ```
 
 ## Development

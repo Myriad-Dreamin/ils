@@ -19,7 +19,7 @@
 //! Reads a subpath, e.g. `/home/user`:
 //!
 //! ```bash
-//! ils -f /dev/sda1 --subpath /home/user
+//! ils -f /dev/sda1 /home/user
 //! ```
 
 use std::io::Write;
