@@ -6,13 +6,15 @@ Directly read directory in image files.
 
 ## Installation
 
-Install from `crates.io`:
+Check [GitHub Releases.](https://github.com/Myriad-Dreamin/ils/releases)
+
+Or install from `crates.io`:
 
 ```bash
 cargo install ils
 ```
 
-Build from source:
+You can also build from source:
 
 ```bash
 cargo install --path crates/ils
