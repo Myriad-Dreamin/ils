@@ -1,3 +1,0 @@
-# rust-template
-
-The description.

@@ -1,6 +1,6 @@
 [package]
-name = "rust-template"
-description = "The description."
+name = "ils"
+description = "Directly read directory in image files."
 categories = ["compilers"]
 keywords = ["language", "compiler"]
 authors.workspace = true
@@ -14,6 +14,9 @@ rust-version.workspace = true
 [dependencies]
 
 anyhow.workspace = true
+ext4.workspace = true
+path-clean.workspace = true
+clap.workspace = true
 
 [lints]
 workspace = true

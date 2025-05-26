@@ -1,20 +1,33 @@
-# rust-template
+# ils
 
-## Setup
+Directly read directory in image files.
 
-Search and edit:
-- `rust-template`
-- `rust_template`
-- `The description.`
+**Note: it doesn't try to replicate the functionality of `ls` or `tree`.**
 
-rename the project name:
+## Installation
 
-- `.vscode/rust-template.code-workspace`
+Install from `crates.io`:
+
+```bash
+cargo install ils
+```
+
+Build from source:
+
+```bash
+cargo install --path crates/ils
+```
+
+## Usage
+
+```bash
+ils [OPTIONS] <DIRECTORY>
+```
 
 ## Development
 
 VSCode:
 
 ```bash
-code .vscode/rust-template.code-workspace
+code .vscode/ils.code-workspace
 ```
