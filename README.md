@@ -42,6 +42,12 @@ Reads a subpath, e.g. `/home/user`:
 ils -f /dev/sda1 /home/user
 ```
 
+Long listing format:
+
+```bash
+ils -l -f /dev/sda1
+```
+
 ## Development
 
 VSCode:

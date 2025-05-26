@@ -14,9 +14,13 @@ rust-version.workspace = true
 [dependencies]
 
 anyhow.workspace = true
+chrono.workspace = true
+clap.workspace = true
 ext4.workspace = true
 path-clean.workspace = true
-clap.workspace = true
+term_grid.workspace = true
+terminal_size.workspace = true
+unicode-width.workspace = true
 
 [lints]
 workspace = true
